@@ -1,0 +1,79 @@
+.herobg {
+  background: url("../public//images/weather.jpg");
+  padding: 120px 120px;
+  min-height: 740px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero1bg {
+  background: url("../public//images/pexels-dalila-dalprat-2043569.jpg");
+  padding: 120px 120px;
+  min-height: 740px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero2bg {
+  background: url("../public//images/bad-weather-meadow-landscape-mah0cuqoos27pbyl.jpg");
+  padding: 120px 120px;
+  min-height: 740px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@-webkit-keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.showBox {
+  -webkit-animation: SHOW-BOX 0.7s ease;
+  -moz-animation: SHOW-BOX 0.7s ease;
+  -o-animation: SHOW-BOX 0.7s ease;
+  animation: SHOW-BOX 0.7s ease;
+}
